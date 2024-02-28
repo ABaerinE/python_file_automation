@@ -2,8 +2,6 @@ import os
 
 os.chdir('/Users/taeyoungkim/Downloads')
 
-print(os.listdir())
-
 for file in os.listdir():
     if file == '.DS_Store':
         continue
